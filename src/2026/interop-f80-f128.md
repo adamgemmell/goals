@@ -60,7 +60,7 @@ We will also continue to push `f128` forward, both on the LLVM and rustc side.
 
 | Purpose | Cost | Funded | Sponsor(s) |
 |---------|------|--------|------------|
-| implementation work | $36,000 | No | |
+| implementation work | $36,000 | Full | Google |
 
 ## Target timeline
 
