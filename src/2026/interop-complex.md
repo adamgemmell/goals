@@ -3,11 +3,13 @@
 | Metadata              |                                                       |
 | :--                   | :--                                                   |
 | Point of contact      | @folkertdev                                           |
-| Status                | Proposed                                              |
+| Status                | Accepted                                              |
 | Other tracking issues | N/A                                                   |
 | Zulip channel         | N/A                                                   |
 | Funding contact       | [Trifecta Tech Foundation](https://trifectatech.org/) |
-| [compiler] champion | @folkertdev |
+| [compiler] champion   | @folkertdev                                           |
+| Tracking issue        | [rust-lang/goals#761]                                 |
+
 
 
 ## Summary
@@ -76,7 +78,7 @@ This project goal focusses on the internal implementation, and leaves most of th
 | ---------- | ------------- | --------------------------------------- |
 | [compiler] | Medium        | This feature touches `callconv` code, which requires careful review |
 | [lang]     | Small         | These new types have a new ABI          |
-| [libs-api] | Small         | Just a vibe check on the names and minimal APIs |
+| [libs]     | Small         | Just a vibe check on the names and minimal APIs |
 
 ## Funding
 
