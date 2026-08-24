@@ -1270,10 +1270,7 @@ pub fn format_funding_goal_sections(
 
         // Render funding contact and table
         if !goal.funding.is_empty() {
-            output.push_str(&format!(
-                "**Contact:** {}\n\n",
-                goal.funding_contact()
-            ));
+            output.push_str(&format!("**Contact:** {}\n\n", goal.funding_contact()));
             output.push_str("| Purpose | Cost | Funded |\n");
             output.push_str("|---------|------|--------|\n");
             for item in &goal.funding {
@@ -1567,11 +1564,7 @@ fn extract_metadata(sections: &[Section]) -> Result<Option<Metadata>> {
 
     let short_title_row = first_table.rows.iter().find(|row| row[0] == "Short title");
 
-    let Some(contact_row) = first_table
-        .rows
-        .iter()
-        .find(|row| row[0] == "Contact")
-    else {
+    let Some(contact_row) = first_table.rows.iter().find(|row| row[0] == "Contact") else {
         spanned::bail!(
             first_table.rows[0][0],
             "metadata table has no `Contact` row"
@@ -1579,10 +1572,7 @@ fn extract_metadata(sections: &[Section]) -> Result<Option<Metadata>> {
     };
 
     if !re::is_just(&re::USERNAME, contact_row[1].trim()) {
-        spanned::bail!(
-            contact_row[1],
-            "contact must be a single github username",
-        )
+        spanned::bail!(contact_row[1], "contact must be a single github username",)
     }
 
     let Some(status_row) = first_table.rows.iter().find(|row| row[0] == "Status") else {
@@ -1841,11 +1831,7 @@ fn extract_roadmap_metadata(sections: &[Section]) -> Result<Option<RoadmapMetada
         )
     };
 
-    let Some(contact_row) = first_table
-        .rows
-        .iter()
-        .find(|row| row[0] == "Contact")
-    else {
+    let Some(contact_row) = first_table.rows.iter().find(|row| row[0] == "Contact") else {
         spanned::bail!(
             first_table.rows[0][0],
             "roadmap metadata table has no `Contact` row"
@@ -1897,7 +1883,11 @@ fn extract_team_involvement(
                 goal_titles.push(subgoal.clone());
             }
             for plan_item in &goal_plan.plan_items {
-                team_asks.extend(plan_item.team_asks(link_path, &goal_titles, &metadata.contacts)?);
+                team_asks.extend(plan_item.team_asks(
+                    link_path,
+                    &goal_titles,
+                    &metadata.contacts,
+                )?);
             }
         }
 
