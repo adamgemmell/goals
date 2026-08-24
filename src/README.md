@@ -10,4 +10,3 @@ Want to learn more? Check out some of the following:
 * [How to propose a goal of your own](./how_to/propose_a_goal.md)
 * [What it means to be a goal contact](./about/contact.md)
 * [What it means to be a task owner](./about/task_owners.md)
-* 
