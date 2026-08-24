@@ -2,7 +2,7 @@
 
 | Metadata         |                                    |
 | :--              | :--                                |
-| Point of contact | @Darksonn                          |
+| Contact | @Darksonn                          |
 | Status           | Proposed                           |
 | Flagship         | Unblocking dormant traits          |
 | Tracking issue   | [rust-lang/goals#395] |

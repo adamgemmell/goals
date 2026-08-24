@@ -2,7 +2,7 @@
 
 | Metadata           |                                    |
 | :----------------- | ------------------------------     |
-| Point of contact   | @tmandry                           |
+| Contact   | @tmandry                           |
 | Status             | Accepted                           |
 | Zulip channel      | N/A                                |
 | Tracking issue     | [rust-lang/goals#253] |

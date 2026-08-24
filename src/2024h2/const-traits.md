@@ -2,7 +2,7 @@
 
 | Metadata       |                                             |
 | ---            | ---                                         |
-| Point of contact | @fee1-dead                                |
+| Contact | @fee1-dead                                |
 | Status         | Accepted                                    |
 | Tracking issue | [rust-lang/goals#106]          |
 | Zulip channel  | [#t-compiler/project-const-traits][channel] |

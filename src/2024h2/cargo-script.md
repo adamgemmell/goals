@@ -2,7 +2,7 @@
 
 | Metadata       |                                    |
 | ---            | ---                                |
-| Point of contact | @epage                           |
+| Contact | @epage                           |
 | Status         | Accepted                           |
 | Tracking issue | [rust-lang/goals#119] |
 | Zulip channel  | N/A                                |

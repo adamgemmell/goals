@@ -2,7 +2,7 @@
 
 | Metadata         |                                    |
 | :--              | :--                                |
-| Point of contact | @cramertj                          |
+| Contact | @cramertj                          |
 | Status           | Proposed                           |
 | Flagship         | Unblocking dormant traits          |
 | Tracking issue   | [rust-lang/goals#393] |

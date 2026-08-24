@@ -2,7 +2,7 @@
 
 | Metadata         |                                    |
 | :--              | :--                                |
-| Point of contact | @ranger-ross                       |
+| Contact | @ranger-ross                       |
 | Status           | Accepted                           |
 | Tracking issue   | [rust-lang/goals#626] |
 | Zulip channel    | N/A                                |

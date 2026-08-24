@@ -2,7 +2,7 @@
 
 | Metadata              |                                                                                           |
 | :--                   | :--                                                                                       |
-| Point of contact      | @dingxiangfei2009                                                                         |
+| Contact      | @dingxiangfei2009                                                                         |
 | Status                | Accepted                                                                                  |
 | What and why          | Let user-defined smart pointers work as method receivers and support `dyn Trait` coercion |
 | Roadmap               | Rust for Linux                                                                            |

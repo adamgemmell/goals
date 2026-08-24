@@ -2,7 +2,7 @@
 
 | Metadata |                     |
 | -------- | ------------------- |
-| Point of contact | @nikomatsakis    |
+| Contact | @nikomatsakis    |
 | Status   | Not accepted        |
 | Zulip channel  | N/A                                |
 

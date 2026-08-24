@@ -2,7 +2,7 @@
 
 | Metadata             |                                    |
 | :--                  | :--                                |
-| Point of contact     | @joshtriplett                      |
+| Contact     | @joshtriplett                      |
 | Status               | Proposed                           |
 | Zulip channel        | [#t-spec][channel]                 |
 | Tracking issue       | [rust-lang/goals#394] |

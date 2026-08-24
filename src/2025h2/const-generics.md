@@ -2,7 +2,7 @@
 
 | Metadata         |                                    |
 | :--------------- | ---------------------------------- |
-| Point of contact | @BoxyUwU                           |
+| Contact | @BoxyUwU                           |
 | Status           | Proposed                           |
 | Tracking issue   | [rust-lang/goals#100] |
 | Zulip channel    | N/A                                |

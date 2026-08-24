@@ -2,7 +2,7 @@
 
 | Metadata              |                                                  |
 | :--                   | :--                                              |
-| Point of contact      | @orhun                                           |
+| Contact      | @orhun                                           |
 | Status                | Accepted                                         |
 | Tracking issue        | [rust-lang/goals#642]               |
 | Other tracking issues | [rust-lang/cargo#11213], [rust-lang/cargo#15473] |

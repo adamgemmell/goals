@@ -2,7 +2,7 @@
 
 | Metadata |                            |
 | -------- | -------------------------- |
-| Point of contact | @pnkfelix                  |
+| Contact | @pnkfelix                  |
 | Status   | Not accepted               |
 | Zulip channel  | N/A                                |
 

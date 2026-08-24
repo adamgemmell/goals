@@ -2,7 +2,7 @@
 
 | Metadata            |                                                          |
 | :--                 | :--                                                      |
-| Point of contact    | @Jamesbarford                                            |
+| Contact    | @Jamesbarford                                            |
 | Status              | Proposed                                                 |
 | Zulip channel       | [#goals/2025h1/rustc-perf-improvements][channel] |
 | Tracking issue      | [rust-lang/goals#275]                       |

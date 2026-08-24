@@ -2,7 +2,7 @@
 
 | Metadata           |                                    |
 | :--                | :--                                |
-| Point of contact   | @folkertdev                        |
+| Contact   | @folkertdev                        |
 | Status             | Accepted                           |
 | Zulip channel      | N/A                                |
 | Tracking issue     | [rust-lang/goals#258] |

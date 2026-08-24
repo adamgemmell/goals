@@ -2,7 +2,7 @@
 
 | Metadata         |                                     |
 | :--------------- | ----------------------------------- |
-| Point of contact | @BoxyUwU                            |
+| Contact | @BoxyUwU                            |
 | Status           | Accepted                            |
 | What and why     | Finish "the rest" of Const Generics |
 | Roadmap          | Constify all the things             |

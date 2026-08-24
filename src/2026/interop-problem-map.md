@@ -2,7 +2,7 @@
 
 | Metadata            |                                    |
 |:--------------------|:-----------------------------------|
-| Point of contact    | @teor2345                          |
+| Contact    | @teor2345                          |
 | Status              | Accepted                           |
 | Tracking issue      | [rust-lang/goals#388] |
 | Zulip channel       | [t-lang/interop][channel]          |

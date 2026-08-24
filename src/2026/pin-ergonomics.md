@@ -2,7 +2,7 @@
 
 | Metadata            |                                    |
 |:--------------------|:-----------------------------------|
-| Point of contact    | @frank-king                        |
+| Contact    | @frank-king                        |
 | Status              | Accepted                           |
 | Tracking issue      | [rust-lang/goals#389] |
 | Zulip channel       | N/A                                |

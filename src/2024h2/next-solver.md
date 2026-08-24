@@ -2,7 +2,7 @@
 
 | Metadata       |                                           |
 |----------------|-------------------------------------------|
-| Point of contact | @lcnr                                   |
+| Contact | @lcnr                                   |
 | Status         | Accepted                                  |
 | Tracking issue | [rust-lang/goals#113]        |
 | Zulip channel  | [#t-types/trait-system-refactor][channel] |

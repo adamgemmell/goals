@@ -2,7 +2,7 @@
 
 | Metadata         |                                    |
 | :--              | :--                                |
-| Point of contact | @hxuhack                           |
+| Contact | @hxuhack                           |
 | Status           | Accepted                           |
 | Tracking issue   | [rust-lang/goals#640] |
 | Zulip channel    | N/A                                |

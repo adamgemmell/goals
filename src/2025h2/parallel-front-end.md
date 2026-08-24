@@ -2,7 +2,7 @@
 
 | Metadata         |                                          |
 | :--------------- | ---------------------------------------- |
-| Point of contact | @SparrowLii                              |
+| Contact | @SparrowLii                              |
 | Status           | Proposed                                 |
 | Flagship         | Flexible, fast(er) compilation           |
 | Tracking issue   | [rust-lang/goals#121]       |

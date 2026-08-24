@@ -2,7 +2,7 @@
 
 | Metadata         |                                                                                                                             |
 | :--              | :--                                                                                                                         |
-| Point of contact | @Nadrieril                                                                                                                  |
+| Contact | @Nadrieril                                                                                                                  |
 | Status           | Accepted                                                                                                                    |
 | What and why     | Experiment with converting where-clauses to use dictionary passing style, avoiding many implementation bugs by construction |
 | Roadmap          | Project Zero                                                                                                                |

@@ -80,7 +80,7 @@ Immediately after the title, a two-column markdown table with the header `| Meta
 
 | Row name                | Required | Kind         | Notes                                                                           |
 |-------------------------|----------|--------------|---------------------------------------------------------------------------------|
-| `Point of contact`      | Yes      | Parsed       | Single GitHub `@username`                                                       |
+| `Contact`      | Yes      | Parsed       | Single GitHub `@username`                                                       |
 | `Status`                | Yes      | Parsed       | `Proposed`, `Invited`, `Accepted`, `Proposed for mentorship`, or `Not accepted` |
 | `Short title`           | No       | Parsed       | Alternate short title for tables; defaults to the `#` heading                   |
 | `Tracking issue`        | Note [1] | Parsed       | Must contain `rust-lang/goals#NNN` if present                                   |
@@ -147,7 +147,7 @@ Roadmaps have a simpler metadata table:
 |--------------------|----------|-------------------------------------------------|
 | `Short title`      | No       | Used to match goals' `Roadmap` rows             |
 | `What and why`     | Yes      | One-line summary                                |
-| `Point of contact` | Yes      | `@username` or "TBD"                            |
+| `Contact` | Yes      | `@username` or "TBD"                            |
 | `Application area` | No       | Category (repeatable); e.g., "Network services" |
 
 Roadmaps must contain `## Summary`, `## Motivation` (with `### The status quo`, `### What we are shooting for`, `### Key use cases`, `### Design axioms`), `## 2026 goals` (containing a `(((ROADMAP GOALS: Theme name)))` directive), and `## Frequently asked questions`.
@@ -205,7 +205,7 @@ When adding or editing a goal document:
 
 1. Copy `src/TEMPLATE.md` to `src/<milestone>/<name>.md`.
 
-2. Fill in all required metadata rows (`Point of contact`, `Status`).
+2. Fill in all required metadata rows (`Contact`, `Status`).
 
 3. Include all required sections.
 
@@ -223,7 +223,7 @@ When adding or editing a roadmap document:
 
 1. Use an existing roadmap in `src/2026/` as a model (e.g., `roadmap-beyond-the-ampersand.md`).  The file must be named `roadmap-<theme-slug>.md`.
 
-2. Include the metadata table with at least `What and why` and `Point of contact`.
+2. Include the metadata table with at least `What and why` and `Contact`.
 
 3. Include all required sections (see the roadmap format section above).
 

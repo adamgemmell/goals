@@ -2,7 +2,7 @@
 
 | Metadata         |                                    |
 | :--              | :--                                |
-| Point of contact | @yaahc                             |
+| Contact | @yaahc                             |
 | Status           | Proposed                           |
 | Tracking issue   | [rust-lang/goals#400] |
 | Zulip channel    |                                    |

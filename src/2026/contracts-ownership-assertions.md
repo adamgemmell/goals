@@ -3,7 +3,7 @@
 | Metadata         |                                                                                                                                               |
 | :--              | :--                                                                                                                                           |
 | What and why     | Implement [MCP #942](https://github.com/rust-lang/compiler-team/issues/942): experiment with Fulminate-like ownership primitives in contracts |
-| Point of contact | @dawidl022                                                                                                                                    |
+| Contact | @dawidl022                                                                                                                                    |
 | Status           | Accepted                                                                                                                                      |
 | Tracking issue   | [rust-lang/goals#734]                                                                                                            |
 | Zulip channel    | N/A (an existing stream can be re-used or new streams can be created on request)                                                              |

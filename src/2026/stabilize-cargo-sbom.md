@@ -2,7 +2,7 @@
 
 | Metadata              |                                                 |
 | :--                   | :--                                             |
-| Point of contact      | @Shnatsel                                       |
+| Contact      | @Shnatsel                                       |
 | Status                | Accepted                                        |
 | Tracking issue        | [rust-lang/goals#649]              |
 | Other tracking issues | [rust-lang/cargo#16565]                         |

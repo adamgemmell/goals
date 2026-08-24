@@ -2,7 +2,7 @@
 
 | Metadata            |                                                                                  |
 | :--                 | :--                                                                              |
-| Point of contact    | @frank-king                                                                      |
+| Contact    | @frank-king                                                                      |
 | Status              | Proposed                                                                         |
 | Flagship            | Beyond the `&`                                                                   |
 | Tracking issue      | [rust-lang/goals#389]                                               |

@@ -2,7 +2,7 @@
 
 | Metadata         |                                                                                  |
 | :--------------- | -------------------------------------------------------------------------------- |
-| Point of contact | @epage                                                                           |
+| Contact | @epage                                                                           |
 | Status           | Proposed                                                                         |
 | Flagship         | Higher-level Rust                                                                |
 | Tracking issue   | [rust-lang/goals#119]                                               |

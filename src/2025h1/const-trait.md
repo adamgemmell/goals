@@ -2,7 +2,7 @@
 
 | Metadata         |                                    |
 |:-----------------|------------------------------------|
-| Point of contact | @oli-obk                           |
+| Contact | @oli-obk                           |
 | Status           | Accepted                           |
 | Tracking issue   | [rust-lang/goals#106] |
 | Zulip channel    | N/A                                |

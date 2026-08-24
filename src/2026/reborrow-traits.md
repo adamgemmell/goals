@@ -2,7 +2,7 @@
 
 | Metadata         |                                    |
 | :--------------- | ---------------------------------- |
-| Point of contact | @aapoalas                          |
+| Contact | @aapoalas                          |
 | Status           | Accepted                           |
 | What and why     | Extend automatic reborrowing to user-defined types like `Pin<&mut T>` and custom smart pointers |
 | Timespan         | 2026-2027                          |

@@ -2,7 +2,7 @@
 
 | Metadata            |                                    |
 | :------------------ | :--------------------------------- |
-| Point of contact    | @davidtwco                         |
+| Contact    | @davidtwco                         |
 | Status              | Proposed                           |
 | Flagship            | Flexible, fast(er) compilation     |
 | Zulip channel       | N/A                                |

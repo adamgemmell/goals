@@ -2,7 +2,7 @@
 
 | Metadata         |                                    |
 | :--              | :--                                |
-| Point of contact | @jakos-sec                         |
+| Contact | @jakos-sec                         |
 | Status           | Proposed                           |
 | flagship         | Flexible, fast(er) builds          |
 | Tracking issue   | [rust-lang/goals#403] |

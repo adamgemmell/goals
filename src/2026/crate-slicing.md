@@ -2,7 +2,7 @@
 
 | Metadata |  |
 | --- | --- |
-| Point of contact | @yijunyu |
+| Contact | @yijunyu |
 | Status | Not accepted |
 | Zulip channel | TBD |
 

@@ -2,7 +2,7 @@
 
 | Metadata                     |                                          |
 | :--------------------------- | ---------------------------------------- |
-| Point of contact             | @petrochenkov                            |
+| Contact             | @petrochenkov                            |
 | Status                       | Accepted                                 |
 | Tracking issue               | [rust-lang/goals#121]       |
 | See also                     | [rust-lang/rust#113349]                  |

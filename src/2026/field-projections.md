@@ -2,7 +2,7 @@
 
 | Metadata             |                                           |
 | :------------------- | ----------------------------------------- |
-| Point of contact     | @BennoLossin                              |
+| Contact     | @BennoLossin                              |
 | Status               | Accepted                                  |
 | What and why         | Access fields through smart pointers and pinned references, not just `&` and `&mut` |
 | Timespan             | 2026-2028                                 |

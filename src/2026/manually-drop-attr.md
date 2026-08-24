@@ -2,7 +2,7 @@
 
 | Metadata            |                                    |
 | :--                 | :--                                |
-| Point of contact    | @JayanAXHF                         |
+| Contact    | @JayanAXHF                         |
 | Status              | Accepted                           |
 | Tracking issue      | [rust-lang/goals#628] |
 | Zulip channel       | N/A                                |

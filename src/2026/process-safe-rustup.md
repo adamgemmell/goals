@@ -2,7 +2,7 @@
 
 | Metadata         |                                                                       |
 | :--              | :--                                                                   |
-| Point of contact | @rami3l                                                               |
+| Contact | @rami3l                                                               |
 | Status           | Accepted                                                              |
 | What and why     | Allow concurrent rustup instances to safely manage the same toolchain |
 | Tracking issue   | [rust-lang/goals#736]                                    |

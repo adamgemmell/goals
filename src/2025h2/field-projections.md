@@ -2,7 +2,7 @@
 
 | Metadata         |                                    |
 | :--              | :--                                |
-| Point of contact | @BennoLossin                       |
+| Contact | @BennoLossin                       |
 | Status           | Proposed                           |
 | Flagship         | Beyond the `&`                     |
 | Tracking issue   | [rust-lang/goals#390] |

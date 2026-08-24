@@ -2,7 +2,7 @@
 
 | Metadata           |                                    |
 | :--                | :--                                |
-| Point of contact   | @nikomatsakis                      |
+| Contact   | @nikomatsakis                      |
 | Status             | Accepted                           |
 | Zulip channel      | [#goals][channel]          |
 | Tracking issue     | [rust-lang/goals#268] |

@@ -2,7 +2,7 @@
 
 | Metadata           |                                    |
 | :--                | :--                                |
-| Point of contact   | @m-ou-se                           |
+| Contact   | @m-ou-se                           |
 | Status             | Accepted                           |
 | Flagship         | Yes                                |
 | Zulip channel      | N/A                                |

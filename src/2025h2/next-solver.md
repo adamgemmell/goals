@@ -2,7 +2,7 @@
 
 | Metadata         |                                           |
 | :--------------- | ----------------------------------------- |
-| Point of contact | @lcnr                                     |
+| Contact | @lcnr                                     |
 | Status           | Proposed                                  |
 | Flagship         | Unblocking dormant traits                 |
 | Tracking issue   | [rust-lang/goals#113]        |

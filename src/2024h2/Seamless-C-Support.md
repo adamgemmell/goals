@@ -2,7 +2,7 @@
 
 | Metadata | |
 | --- | --- |
-| Point of contact | @joshtriplett |
+| Contact | @joshtriplett |
 | Status | Not accepted |
 | Zulip channel  | N/A                                |
 

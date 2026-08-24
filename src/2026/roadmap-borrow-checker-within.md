@@ -4,7 +4,7 @@
 |:-----------------|-----------------------------------------------------------------------------------------------------------------------------------------|
 | Short title      | The Borrow Checker Within                                                                                                               |
 | What and why     | Make the borrow checker's rules visible in the type system — place-based lifetimes, view types, and internal references built on Polonius |
-| Point of contact | @nikomatsakis                                                                                                                           |
+| Contact | @nikomatsakis                                                                                                                           |
 
 ## Summary
 

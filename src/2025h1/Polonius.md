@@ -2,7 +2,7 @@
 
 | Metadata         |                                    |
 |:-----------------|------------------------------------|
-| Point of contact | @lqd                               |
+| Contact | @lqd                               |
 | Status           | Accepted                           |
 | Tracking issue   | [rust-lang/goals#118] |
 | Zulip channel    | [#t-types/polonius][channel]       |

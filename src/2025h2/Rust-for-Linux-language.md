@@ -2,7 +2,7 @@
 
 | Metadata         |                                                                                  |
 |:-----------------|----------------------------------------------------------------------------------|
-| Point of contact | @tomassedovic                                                                    |
+| Contact | @tomassedovic                                                                    |
 | Status           | Proposed                                                                         |
 | Tracking issue   | [rust-lang/goals#116]                                               |
 | Zulip channel    | [#t-lang][channel-t-lang], [#rust-for-linux][channel-rust-for-linux]             |

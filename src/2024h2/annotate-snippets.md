@@ -2,7 +2,7 @@
 
 | Metadata         |                                    |
 |------------------|------------------------------------|
-| Point of contact | @Muscraft                          |
+| Contact | @Muscraft                          |
 | Status           | Accepted                           |
 | Tracking issue   | [rust-lang/goals#123] |
 | Zulip channel    | N/A                                |

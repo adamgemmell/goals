@@ -2,7 +2,7 @@
 
 | Metadata         |                                    |
 | :--------------- | ---------------------------------- |
-| Point of contact | @lqd                               |
+| Contact | @lqd                               |
 | Status           | Proposed                           |
 | Flagship         | Unblocking dormant traits          |
 | Tracking issue   | [rust-lang/goals#118] |

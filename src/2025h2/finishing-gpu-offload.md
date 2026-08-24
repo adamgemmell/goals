@@ -2,7 +2,7 @@
 
 | Metadata              |                                                  |
 | :-------------------- | -------------------------------------------------|
-| Point of contact      | @ZuseZ4                                          |
+| Contact      | @ZuseZ4                                          |
 | Status                | Proposed                                         |
 | Tracking issue        | [rust-lang/goals#109]               |
 | Other tracking issues | [rust-lang/rust#124509]                          |

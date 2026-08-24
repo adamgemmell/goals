@@ -2,7 +2,7 @@
 
 | Metadata            |                                    |
 | :--                 | :--                                |
-| Point of contact    | @icmccorm                          |
+| Contact    | @icmccorm                          |
 | Status              | Proposed                           |
 | Tracking issue      | [rust-lang/goals#392] |
 | Zulip channel       | N/A                                |

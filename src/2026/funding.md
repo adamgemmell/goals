@@ -1,6 +1,6 @@
 # Looking for funding
 
-The following goals below are looking for funding. Many goals have a point of contact but you can also work with the Rust Funding Team to interface (`funding@rust-lang.org`).
+The following goals below are looking for funding. Many goals have a contact but you can also work with the Rust Funding Team to interface (`funding@rust-lang.org`).
 
 (((FUNDING LEGEND)))
 
@@ -8,6 +8,6 @@ The following goals below are looking for funding. Many goals have a point of co
 
 (((FUNDING TABLE GROUPED BY GOAL)))
 
-## By funding POC
+## By funding contact
 
-(((FUNDING TABLE GROUPED BY POC)))
+(((FUNDING TABLE GROUPED BY CONTACT)))

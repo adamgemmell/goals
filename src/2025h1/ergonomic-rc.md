@@ -2,7 +2,7 @@
 
 | Metadata         |                                    |
 | :--------------- | ---------------------------------- |
-| Point of contact | @spastorino                        |
+| Contact | @spastorino                        |
 | Status           | Accepted                           |
 | Tracking issue   | [rust-lang/goals#107] |
 | Zulip channel    | N/A                                |

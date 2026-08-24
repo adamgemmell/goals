@@ -2,7 +2,7 @@
 
 | Metadata            |                                    |
 | :--                 | :--                                |
-| Point of contact    | @ZuseZ4                            |
+| Contact    | @ZuseZ4                            |
 | Status              | Accepted                           |
 | Tracking issue      | [rust-lang/goals#647] |
 | Zulip channel       | N/A                                |

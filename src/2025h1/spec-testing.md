@@ -2,7 +2,7 @@
 
 | Metadata         |                    |
 |:-----------------|--------------------|
-| Point of contact | @chorman0773       |
+| Contact | @chorman0773       |
 | Status           | Not accepted           |
 | Zulip channel    | [#t-spec][channel] |
 [channel]: https://rust-lang.zulipchat.com/#narrow/channel/399173-t-spec

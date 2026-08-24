@@ -25,7 +25,7 @@ Team members perform some subset of the following roles:
 
 ## Role of the lead
 
-The team lead is the [owner](../about/owners.md) of the program,
+The team lead is the [task owner](../about/task_owners.md) of the program,
 meaning that they take ultimately responsible for ensuring the goals program moves forward smoothly.
 They perform and and all of the member functions as needed, delegating where possible.
 In the event of conflicts (e.g., which goals to propose as roadmap goals in the RFC), team lead makes the final decision.

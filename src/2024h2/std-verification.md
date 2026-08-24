@@ -2,7 +2,7 @@
 
 | Metadata       |                                    |
 | ---            | ---                                |
-| Point of contact | @celinval                          |
+| Contact | @celinval                          |
 | Status         | Accepted                           |
 | Tracking issue | [rust-lang/goals#126] |
 | Zulip channel  | N/A                                |

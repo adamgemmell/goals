@@ -2,7 +2,7 @@
 
 | Metadata              |                                         |
 | --------------------- | --------------------------------------- |
-| Point of contact      | @GuillaumeGomez                         |
+| Contact      | @GuillaumeGomez                         |
 | Status                | Proposed                                |
 | Other tracking issues | [rust-lang/compiler-team#891]           |
 | Zulip channel         | [#rustc-codegen-gcc][rustc-codegen-gcc] |

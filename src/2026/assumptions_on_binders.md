@@ -2,7 +2,7 @@
 
 | Metadata         |                                     |
 | :--              | :--                                 |
-| Point of contact | @BoxyUwU                            |
+| Contact | @BoxyUwU                            |
 | Roadmap          | Project Zero                        |
 | Status           | Accepted                            |
 | Tracking issue   | [rust-lang/goals#621]  |

@@ -2,7 +2,7 @@
 
 | Metadata       |                                    |
 |----------------|------------------------------------|
-| Point of contact | @Rustin170506                      |
+| Contact | @Rustin170506                      |
 | Status         | Accepted                           |
 | Tracking issue | [rust-lang/goals#101] |
 | Zulip channel  | N/A                                |

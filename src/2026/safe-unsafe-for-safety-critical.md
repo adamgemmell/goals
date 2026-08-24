@@ -2,7 +2,7 @@
 
 | Metadata         |                                                                                                                |
 | :--              | :--                                                                                                            |
-| Point of contact | @PLeVasseur                                                                                                    |
+| Contact | @PLeVasseur                                                                                                    |
 | Status           | Accepted                                                                                                       |
 | What and why     | Normative documentation for common `unsafe` patterns so safety-critical developers have authoritative guidance |
 | Roadmap          | Safety-Critical Rust                                                                                           |

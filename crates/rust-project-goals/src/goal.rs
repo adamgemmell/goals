@@ -278,8 +278,8 @@ pub struct RoadmapDocument {
     /// Text from the "What and why" metadata row
     pub what_and_why: String,
 
-    /// Point of contact (e.g. `@username` or "TBD")
-    pub point_of_contact: String,
+    /// Contact (e.g. `@username` or "TBD")
+    pub contact: String,
 
     /// Text from the summary section
     pub summary: String,
@@ -295,7 +295,7 @@ impl RoadmapDocument {
             title,
             short_title,
             what_and_why,
-            point_of_contact,
+            contact,
         }) = extract_roadmap_metadata(&sections)?
         else {
             return Ok(None);
@@ -309,7 +309,7 @@ impl RoadmapDocument {
             title,
             short_title,
             what_and_why,
-            point_of_contact,
+            contact,
             summary,
         }))
     }
@@ -320,7 +320,7 @@ impl RoadmapDocument {
 pub struct Metadata {
     pub title: Spanned<String>,
     pub short_title: Spanned<String>,
-    pub pocs: String,
+    pub contacts: String,
     pub status: Spanned<Status>,
     pub tracking_issue: Option<IssueId>,
     pub table: Spanned<Table>,
@@ -343,9 +343,9 @@ pub struct Metadata {
     /// Optional "Timespan" override (e.g. "2026–2027"). Defaults to the milestone directory name.
     pub timespan: Option<String>,
 
-    /// Optional funding point of contact (freeform markdown).
+    /// Optional funding contact (freeform markdown).
     /// Defaults to the Rust Funding team link when absent.
-    pub funding_poc: Option<String>,
+    pub funding_contact: Option<String>,
 }
 
 impl Metadata {
@@ -685,8 +685,8 @@ pub fn validate_username_consistency(goals: &[GoalDocument]) -> Result<()> {
     for goal in goals {
         let file = goal.path.display().to_string();
 
-        // Collect usernames from point of contact
-        for username in owner_usernames(&goal.metadata.pocs) {
+        // Collect usernames from contacts
+        for username in owner_usernames(&goal.metadata.contacts) {
             seen.entry(username.to_lowercase())
                 .or_default()
                 .entry(username.to_string())
@@ -842,14 +842,14 @@ impl GoalDocument {
         FundingStatus::aggregate(&statuses)
     }
 
-    /// Returns the funding point of contact for this goal, defaulting to the Rust Funding team.
-    pub fn funding_point_of_contact(&self) -> &str {
-        const DEFAULT_FUNDING_POC: &str =
+    /// Returns the funding contact for this goal, defaulting to the Rust Funding team.
+    pub fn funding_contact(&self) -> &str {
+        const DEFAULT_FUNDING_CONTACT: &str =
             "[Funding team](https://rust-lang.org/governance/teams/launching-pad/#team-funding)";
         self.metadata
-            .funding_poc
+            .funding_contact
             .as_deref()
-            .unwrap_or(DEFAULT_FUNDING_POC)
+            .unwrap_or(DEFAULT_FUNDING_CONTACT)
     }
 
     pub fn sponsors_display(&self) -> String {
@@ -887,12 +887,12 @@ impl GoalDocument {
         Ok(())
     }
 
-    /// In goal lists, we render our point-of-contact as "Help Wanted" if this goal needs a contributor.
-    pub fn point_of_contact_for_goal_list(&self) -> String {
+    /// In goal lists, we render our contact as "Help Wanted" if this goal needs a contributor.
+    pub fn contact_for_goal_list(&self) -> String {
         if self.needs_contributor() || self.metadata.is_help_wanted() {
             "![Help Wanted][]".to_string()
         } else {
-            self.metadata.pocs.clone()
+            self.metadata.contacts.clone()
         }
     }
 
@@ -968,7 +968,7 @@ pub fn format_goal_table(
     if !show_champions {
         table = vec![vec![
             Spanned::here("Goal".to_string()),
-            Spanned::here("Point of contact".to_string()),
+            Spanned::here("Contact".to_string()),
             Spanned::here("Progress".to_string()),
         ]];
 
@@ -1020,23 +1020,23 @@ pub fn format_goal_table(
                     *goal.metadata.title,
                     goal.link_path.display()
                 )),
-                Spanned::here(goal.point_of_contact_for_goal_list()),
+                Spanned::here(goal.contact_for_goal_list()),
                 Spanned::here(progress_bar),
             ]);
         }
     } else {
         table = vec![vec![
             Spanned::here("Goal".to_string()),
-            Spanned::here("Point of contact".to_string()),
+            Spanned::here("Contact".to_string()),
             Spanned::here("Task Owners and Champions".to_string()),
         ]];
 
         for goal in goals {
-            // Collect task owners, excluding those who are already the POC
+            // Collect task owners, excluding those who are already the contact
             let mut contributors: Vec<String> = goal
                 .task_owners
                 .iter()
-                .filter(|owner| !goal.metadata.pocs.contains(owner.as_str()))
+                .filter(|owner| !goal.metadata.contacts.contains(owner.as_str()))
                 .cloned()
                 .collect();
 
@@ -1057,7 +1057,7 @@ pub fn format_goal_table(
                     *goal.metadata.title,
                     goal.link_path.display()
                 )),
-                Spanned::here(goal.point_of_contact_for_goal_list()),
+                Spanned::here(goal.contact_for_goal_list()),
                 Spanned::here(contributors.join(", ")),
             ]);
         }
@@ -1088,13 +1088,13 @@ pub fn format_highlight_goal_sections(
             ));
         }
 
-        // Build people list: POC first (with role), then task owners (no role), then champions (with team role)
+        // Build people list: contact first (with role), then task owners (no role), then champions (with team role)
         let mut people: Vec<String> = Vec::new();
 
-        people.push(format!("{} (point of contact)", goal.metadata.pocs));
+        people.push(format!("{} (contact)", goal.metadata.contacts));
 
         for owner in &goal.task_owners {
-            if !goal.metadata.pocs.contains(owner.as_str()) {
+            if !goal.metadata.contacts.contains(owner.as_str()) {
                 people.push(owner.clone());
             }
         }
@@ -1180,24 +1180,24 @@ pub fn format_funding_table_grouped(
     output
 }
 
-/// Format a summary table of goals needing funding, grouped by funding point of contact.
-/// Each distinct POC gets a bold header row. Goals are listed underneath their POC.
-pub fn format_funding_table_grouped_by_poc(goals: &[&GoalDocument]) -> String {
+/// Format a summary table of goals needing funding, grouped by funding contact.
+/// Each distinct contact gets a bold header row. Goals are listed underneath their contact.
+pub fn format_funding_table_grouped_by_contact(goals: &[&GoalDocument]) -> String {
     let mut output = String::new();
     output.push_str("| | Goal | Cost | Funding contact | Sponsor(s) |\n");
     output.push_str("| --- | --- | --- | --- | --- |\n");
 
-    // Group goals by their funding POC
-    let mut by_poc: BTreeMap<String, Vec<&GoalDocument>> = BTreeMap::new();
+    // Group goals by their funding contact
+    let mut by_contact: BTreeMap<String, Vec<&GoalDocument>> = BTreeMap::new();
     for goal in goals {
-        let poc = goal.funding_point_of_contact().to_string();
-        by_poc.entry(poc).or_default().push(goal);
+        let contact = goal.funding_contact().to_string();
+        by_contact.entry(contact).or_default().push(goal);
     }
 
-    for (poc, poc_goals) in &by_poc {
-        output.push_str(&format!("| - | **{}** | -- | -- | -- |\n", poc));
+    for (contact, contact_goals) in &by_contact {
+        output.push_str(&format!("| - | **{}** | -- | -- | -- |\n", contact));
 
-        for goal in poc_goals {
+        for goal in contact_goals {
             format_funding_table_row(&mut output, goal);
         }
     }
@@ -1230,7 +1230,7 @@ fn format_funding_table_row(output: &mut String, goal: &GoalDocument) {
         *goal.metadata.title,
         goal.link_path.display(),
         cost_str,
-        goal.funding_point_of_contact(),
+        goal.funding_contact(),
         goal.sponsors_display(),
     ));
 }
@@ -1252,9 +1252,9 @@ pub fn format_funding_goal_sections(
 
         // Build people list
         let mut people: Vec<String> = Vec::new();
-        people.push(format!("{} (point of contact)", goal.metadata.pocs));
+        people.push(format!("{} (contact)", goal.metadata.contacts));
         for owner in &goal.task_owners {
-            if !goal.metadata.pocs.contains(owner.as_str()) {
+            if !goal.metadata.contacts.contains(owner.as_str()) {
                 people.push(owner.clone());
             }
         }
@@ -1272,7 +1272,7 @@ pub fn format_funding_goal_sections(
         if !goal.funding.is_empty() {
             output.push_str(&format!(
                 "**Contact:** {}\n\n",
-                goal.funding_point_of_contact()
+                goal.funding_contact()
             ));
             output.push_str("| Purpose | Cost | Funded |\n");
             output.push_str("|---------|------|--------|\n");
@@ -1308,9 +1308,9 @@ pub fn format_help_wanted_goal_sections(
 
         // Build people list
         let mut people: Vec<String> = Vec::new();
-        people.push(format!("{} (point of contact)", goal.metadata.pocs));
+        people.push(format!("{} (contact)", goal.metadata.contacts));
         for owner in &goal.task_owners {
-            if !goal.metadata.pocs.contains(owner.as_str()) {
+            if !goal.metadata.contacts.contains(owner.as_str()) {
                 people.push(owner.clone());
             }
         }
@@ -1380,11 +1380,11 @@ pub fn format_highlight_table(goals: &[&GoalDocument]) -> String {
 }
 
 /// Format a credits line listing all people involved in the given goals.
-/// Unions task owners, POCs, and team champions, deduplicates, and sorts alphabetically.
+/// Unions task owners, contacts, and team champions, deduplicates, and sorts alphabetically.
 pub fn format_highlight_credits(goals: &[&GoalDocument]) -> String {
     let mut all_people: BTreeSet<String> = BTreeSet::new();
     for goal in goals {
-        for username in owner_usernames(&goal.metadata.pocs) {
+        for username in owner_usernames(&goal.metadata.contacts) {
             all_people.insert(username.to_string());
         }
         for owner in &goal.task_owners {
@@ -1407,11 +1407,11 @@ pub fn format_highlight_credits(goals: &[&GoalDocument]) -> String {
     people_list.join(", ")
 }
 
-/// Format roadmaps as a table with "Roadmap", "Point of contact", and "What and why" columns.
+/// Format roadmaps as a table with "Roadmap", "Contact", and "What and why" columns.
 pub fn format_roadmap_table(roadmaps: &[&RoadmapDocument]) -> Result<String> {
     let mut table = vec![vec![
         Spanned::here("Roadmap".to_string()),
-        Spanned::here("Point of contact".to_string()),
+        Spanned::here("Contact".to_string()),
         Spanned::here("What and why".to_string()),
     ]];
 
@@ -1425,7 +1425,7 @@ pub fn format_roadmap_table(roadmaps: &[&RoadmapDocument]) -> Result<String> {
                 *roadmap.short_title,
                 roadmap.link_path.display()
             )),
-            Spanned::here(roadmap.point_of_contact.clone()),
+            Spanned::here(roadmap.contact.clone()),
             Spanned::here(roadmap.what_and_why.clone()),
         ]);
     }
@@ -1567,21 +1567,21 @@ fn extract_metadata(sections: &[Section]) -> Result<Option<Metadata>> {
 
     let short_title_row = first_table.rows.iter().find(|row| row[0] == "Short title");
 
-    let Some(poc_row) = first_table
+    let Some(contact_row) = first_table
         .rows
         .iter()
-        .find(|row| row[0] == "Point of contact")
+        .find(|row| row[0] == "Contact")
     else {
         spanned::bail!(
             first_table.rows[0][0],
-            "metadata table has no `Point of contact` row"
+            "metadata table has no `Contact` row"
         )
     };
 
-    if !re::is_just(&re::USERNAME, poc_row[1].trim()) {
+    if !re::is_just(&re::USERNAME, contact_row[1].trim()) {
         spanned::bail!(
-            poc_row[1],
-            "point of contact must be a single github username",
+            contact_row[1],
+            "contact must be a single github username",
         )
     }
 
@@ -1678,7 +1678,7 @@ fn extract_metadata(sections: &[Section]) -> Result<Option<Metadata>> {
         .find(|row| row[0].content.trim().eq_ignore_ascii_case("Timespan"))
         .map(|row| row[1].to_string());
 
-    let funding_poc = first_table
+    let funding_contact = first_table
         .rows
         .iter()
         .find(|row| {
@@ -1697,7 +1697,7 @@ fn extract_metadata(sections: &[Section]) -> Result<Option<Metadata>> {
         } else {
             title.clone()
         },
-        pocs: poc_row[1].to_string(),
+        contacts: contact_row[1].to_string(),
         status,
         tracking_issue: issue,
         table: first_table.clone(),
@@ -1707,7 +1707,7 @@ fn extract_metadata(sections: &[Section]) -> Result<Option<Metadata>> {
         needs,
         what_and_why,
         timespan,
-        funding_poc,
+        funding_contact,
     }))
 }
 
@@ -1805,7 +1805,7 @@ struct RoadmapMetadata {
     title: Spanned<String>,
     short_title: Spanned<String>,
     what_and_why: String,
-    point_of_contact: String,
+    contact: String,
 }
 
 /// Extract roadmap metadata from the first section of a markdown file.
@@ -1841,14 +1841,14 @@ fn extract_roadmap_metadata(sections: &[Section]) -> Result<Option<RoadmapMetada
         )
     };
 
-    let Some(poc_row) = first_table
+    let Some(contact_row) = first_table
         .rows
         .iter()
-        .find(|row| row[0] == "Point of contact")
+        .find(|row| row[0] == "Contact")
     else {
         spanned::bail!(
             first_table.rows[0][0],
-            "roadmap metadata table has no `Point of contact` row"
+            "roadmap metadata table has no `Contact` row"
         )
     };
 
@@ -1856,7 +1856,7 @@ fn extract_roadmap_metadata(sections: &[Section]) -> Result<Option<RoadmapMetada
         title: title.clone(),
         short_title,
         what_and_why: what_row[1].to_string(),
-        point_of_contact: poc_row[1].to_string(),
+        contact: contact_row[1].to_string(),
     }))
 }
 
@@ -1897,7 +1897,7 @@ fn extract_team_involvement(
                 goal_titles.push(subgoal.clone());
             }
             for plan_item in &goal_plan.plan_items {
-                team_asks.extend(plan_item.team_asks(link_path, &goal_titles, &metadata.pocs)?);
+                team_asks.extend(plan_item.team_asks(link_path, &goal_titles, &metadata.contacts)?);
             }
         }
 
@@ -2140,8 +2140,8 @@ pub fn format_sized_goal_table(goals: &[&GoalDocument], size: GoalSize) -> Resul
                 String::new()
             };
 
-            let poc_cell = if is_first_row {
-                goal.point_of_contact_for_goal_list()
+            let contact_cell = if is_first_row {
+                goal.contact_for_goal_list()
             } else {
                 String::new()
             };
@@ -2166,7 +2166,7 @@ pub fn format_sized_goal_table(goals: &[&GoalDocument], size: GoalSize) -> Resul
 
             table.push(vec![
                 Spanned::here(goal_cell),
-                Spanned::here(poc_cell),
+                Spanned::here(contact_cell),
                 Spanned::here(team_cell),
                 Spanned::here(champion_cell),
             ]);
@@ -2557,7 +2557,7 @@ impl Metadata {
 
     /// Extracts the `@abc` usernames found in the owner listing.
     pub fn owner_usernames(&self) -> Vec<&str> {
-        owner_usernames(&self.pocs)
+        owner_usernames(&self.contacts)
     }
 }
 

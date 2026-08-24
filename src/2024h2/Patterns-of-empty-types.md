@@ -2,7 +2,7 @@
 
 | Metadata       |                                    |
 | ---            | ---                                |
-| Point of contact | @Nadrieril                         |
+| Contact | @Nadrieril                         |
 | Status         | Accepted                           |
 | Tracking issue | [rust-lang/goals#115] |
 | Zulip channel  | N/A                                |

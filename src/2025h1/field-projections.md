@@ -2,7 +2,7 @@
 
 | Metadata         |                            |
 |:-----------------|----------------------------|
-| Point of contact | @y86-dev                   |
+| Contact | @y86-dev                   |
 | Status           | Not accepted                   |
 | Zulip channel    | N/A                        |
 ## Summary

@@ -1,6 +1,6 @@
 # Provisional goals
 
-**Provisional goals** are goals accepted without an assigned [owner](./owners.md).
+**Provisional goals** are goals accepted without an assigned [task owner](./task_owners.md).
 Teams sometimes accept provisional goals to represent work that they feel is important
 but for which they have not yet found a suitable owner.
 Interested individuals who wish to improve Rust can talk to the teams

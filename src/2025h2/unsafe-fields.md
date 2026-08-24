@@ -2,7 +2,7 @@
 
 | Metadata           |                                    |
 | :--                | :--                                |
-| Point of contact   | @jswrenn                           |
+| Contact   | @jswrenn                           |
 | Status             | Proposed                           |
 | Zulip channel      | N/A                                |
 | Tracking issue     | [rust-lang/goals#273] |
