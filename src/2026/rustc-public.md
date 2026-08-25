@@ -2,7 +2,7 @@
 
 | Metadata         |                                   |
 | :--------------- | --------------------------------- |
-| Point of contact | @makai410                         |
+| Contact | @makai410                         |
 | Status           | Proposed                          |
 | [project-rustc-public] champion | @celinval          |
 | Tracking issue   | [rust-lang/goals#266]             |
