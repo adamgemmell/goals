@@ -2,7 +2,7 @@
 
 | Metadata         |                                                                                                                |
 | :--              | :--                                                                                                            |
-| Point of contact | @PLeVasseur                                                                                                    |
+| Contact | @PLeVasseur                                                                                                    |
 | Status           | Accepted                                                                                                       |
 | What and why     | Predictable FLS releases within six weeks of each Rust stable release, so safety assessors have a current spec |
 | Roadmap          | Safety-Critical Rust                                                                                           |

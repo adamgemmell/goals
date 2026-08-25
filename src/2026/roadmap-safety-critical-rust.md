@@ -4,7 +4,7 @@
 |:-----------------|------------------------------------------------------------------------------------------------------------------------------|
 | Short title      | Safety-Critical Rust                                                                                                         |
 | What and why     | MC/DC coverage, a specification that tracks stable releases, and `unsafe` documentation — the evidence safety assessors need |
-| Point of contact | @PLeVasseur                                                                                                                  |
+| Contact | @PLeVasseur                                                                                                                  |
 
 ## Summary
 

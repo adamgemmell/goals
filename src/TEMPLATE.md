@@ -9,7 +9,7 @@
 > designed to help you get started.
 > See the [goal format reference](./about/goal-format.md) for full details on the format.
 >
-> The **point of contact** is the person responsible for providing updates.
+> The **contact** is the person responsible for providing updates.
 >
 > The **status** should be **Proposed** for new goals or **Accepted** once approved.
 >
@@ -19,7 +19,7 @@
 
 | Metadata         |                                                                                  |
 | :--------------- | -------------------------------------------------------------------------------- |
-| Point of contact | *must be a single GitHub username like @ghost*                                   |
+| Contact | *must be a single GitHub username like @ghost*                                   |
 | Status           | Proposed                                                                         |
 | Tracking issue   | *if this is a continuing goal, add the old tracking issue, else leave blank*     |
 | Zulip channel    | N/A (an existing stream can be re-used or new streams can be created on request) |
@@ -105,7 +105,7 @@
 > The presence of this section signals that the goal is looking for financial support.
 > Delete this section if your goal does not need funding.
 >
-> If you have a specific funding point of contact (e.g., an organization that can
+> If you have a specific funding contact (e.g., an organization that can
 > receive and administer funds), add a `Funding contact` row to the
 > metadata table at the top of this file. If omitted, it defaults to the
 > [Rust Funding team](https://rust-lang.org/governance/teams/launching-pad/#team-funding).

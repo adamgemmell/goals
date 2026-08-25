@@ -2,7 +2,7 @@
 
 | Metadata         |                                    |
 |:-----------------|:-----------------------------------|
-| Point of contact | @davidtwco                         |
+| Contact | @davidtwco                         |
 | Status           | Accepted                           |
 | What and why     | Let Cargo rebuild the standard library from source for custom targets and configurations |
 | Roadmap          | Rust for Linux                     |

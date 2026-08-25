@@ -2,7 +2,7 @@
 
 | Metadata             |                                                                           |
 | :--                  | :--                                                                       |
-| Point of contact     | @Nadrieril                                                                |
+| Contact     | @Nadrieril                                                                |
 | What and why         | Build an executable specification for Rust that covers the whole language |
 | Status               | Accepted                                                                  |
 | Tracking issue       | [rust-lang/goals#749]                                        |

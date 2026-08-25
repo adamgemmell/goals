@@ -4,7 +4,7 @@
 |:-----------------|------------------------------------------------------------------------------------------|
 | Short title      | Fast Builds                                                                              |
 | What and why     | Make Rust compilation fast — both from-scratch builds and incremental rebuilds during development |
-| Point of contact | @lqd                                                                            |
+| Contact | @lqd                                                                            |
 
 ## Summary
 

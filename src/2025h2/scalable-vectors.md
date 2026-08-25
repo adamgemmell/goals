@@ -2,7 +2,7 @@
 
 | Metadata            |                                    |
 | :--                 | :--                                |
-| Point of contact    | @davidtwco                         |
+| Contact    | @davidtwco                         |
 | Status              | Proposed                           |
 | Zulip channel       | N/A                                |
 | Tracking issue      | [rust-lang/goals#270] |

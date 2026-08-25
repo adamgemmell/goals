@@ -2,7 +2,7 @@
 
 | Metadata            |                                    |
 | :--                 | :--                                |
-| Point of contact    | @Amanieu                           |
+| Contact    | @Amanieu                           |
 | Status              | Accepted                           |
 | Tracking issue      | [rust-lang/goals#633] |
 | Zulip channel       | N/A                                |

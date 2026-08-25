@@ -4,7 +4,7 @@
 |:--|--|
 | Short title | Binary size reduction |
 | What and why | Easily building smaller binaries with only what's needed |
-| Point of contact | @nia-e |
+| Contact | @nia-e |
 
 ## Summary
 
@@ -51,7 +51,7 @@ Additionally, the former binary size working group is to be reestablished in ord
 
 ## Funding
 
-Beyond per-topic funding, broad cross-topic funding for binary size reduction is welcome and should be coordinated with the listed point of contact.
+Beyond per-topic funding, broad cross-topic funding for binary size reduction is welcome and should be coordinated with the listed contact.
 
 (((FUNDING TABLE: Binary size reduction)))
 

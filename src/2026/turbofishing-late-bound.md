@@ -2,7 +2,7 @@
 
 | Metadata         |                                      |
 | :--------------- | :----------------------------------- |
-| Point of contact | @oli-obk                             |
+| Contact | @oli-obk                             |
 | Status           | Accepted                             |
 | Funding contact  | [RustNL](https://rustnl.org)         |
 | Tracking issue   | [rust-lang/goals#711]   |

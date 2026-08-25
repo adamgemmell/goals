@@ -2,7 +2,7 @@
 
 | Metadata             |                                                 |
 | :--                  | :--                                             |
-| Point of contact     | @jchlanda                                       |
+| Contact     | @jchlanda                                       |
 | [compiler] champion  | @davidtwco                                      |
 | Status               | Accepted                                        |
 | Other tracking issue | [rust-lang/rust#148640]                         |

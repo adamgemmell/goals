@@ -2,7 +2,7 @@
 
 | Metadata              |                         |
 | :-------------------- | :---------------------- |
-| Point of contact      | @petrochenkov           |
+| Contact      | @petrochenkov           |
 | Status                | Not accepted            |
 | Zulip channel         | N/A                     |
 | Other tracking issues | [rust-lang/rust#118212] |

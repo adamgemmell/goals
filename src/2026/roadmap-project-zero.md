@@ -4,7 +4,7 @@
 |:-----------------|------------------------------------------------------------------------------------------|
 | Short title      | Project Zero                                                                             |
 | What and why     | Fix all known type system unsoundnesses so Rust's safety guarantees are actually reliable |
-| Point of contact | @lcnr                                                                                    |
+| Contact | @lcnr                                                                                    |
 
 ## Summary
 

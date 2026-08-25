@@ -2,7 +2,7 @@
 
 | Metadata |              |
 | -------- | ------------ |
-| Point of contact | @jkelleyrtp  |
+| Contact | @jkelleyrtp  |
 | Status   | Not accepted |
 | Zulip channel  | N/A                                |
 

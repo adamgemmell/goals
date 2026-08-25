@@ -2,7 +2,7 @@
 
 | Metadata            |                                    |
 | :------------------ | :--------------------------------- |
-| Point of contact    | @folkertdev                        |
+| Contact    | @folkertdev                        |
 | Status              | Proposed                           |
 | Flagship            | Flexible, fast(er) compilation     |
 | Tracking issue      | [rust-lang/goals#397] |

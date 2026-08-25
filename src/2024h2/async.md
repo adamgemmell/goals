@@ -3,7 +3,7 @@
 | Metadata         |                                    |
 |------------------|------------------------------------|
 | Short title      | Async                              |
-| Point of contact | @tmandry                           |
+| Contact | @tmandry                           |
 | Status           | Accepted                           |
 | Flagship         | Yes                                |
 | Tracking issue   | [rust-lang/goals#105] |

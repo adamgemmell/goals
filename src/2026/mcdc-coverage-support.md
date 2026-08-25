@@ -2,7 +2,7 @@
 
 | Metadata            |                                                                                                              |
 | :--                 | :--                                                                                                          |
-| Point of contact    | @RenjiSann                                                                                                   |
+| Contact    | @RenjiSann                                                                                                   |
 | Status              | Accepted                                                                                                     |
 | What and why        | MC/DC and decision coverage in rustc, required by DO-178C, ISO 26262, and IEC 61508 for safety certification |
 | Roadmap             | Safety-Critical Rust                                                                                         |

@@ -3,7 +3,7 @@
 
 | Metadata         |                                                                      |
 | :--              | :--                                                                  |
-| Point of contact | @lcnr                                                                |
+| Contact | @lcnr                                                                |
 | What and why     | Enable library authors to more easily change their trait definitions |
 | Status           | Proposed                                                             |
 | Tracking issue   | [rust-lang/goals#712]                                   |

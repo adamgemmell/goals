@@ -2,7 +2,7 @@
 
 | Metadata       |                                    |
 | ---            | ---                                |
-| Point of contact | @eh2406                            |
+| Contact | @eh2406                            |
 | Status         | Accepted                           |
 | Tracking issue | [rust-lang/goals#110] |
 | Zulip channel  | N/A                                |

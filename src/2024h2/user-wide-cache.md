@@ -2,7 +2,7 @@
 
 | Metadata         |                                    |
 |------------------|------------------------------------|
-| Point of contact | @epage                             |
+| Contact | @epage                             |
 | Status           | Accepted                           |
 | Needs            | Contributor                        |
 | Tracking issue   | [rust-lang/goals#124] |

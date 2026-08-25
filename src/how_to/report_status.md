@@ -1,6 +1,6 @@
 # Report status
 
-Every accepted project goal has an associated tracking issue. These are created [automatically by the project-goals admin tool](../admin/issues.md). Your job as a project goal point of contact is to provide regular status updates in the form of a comment indicating how things are going. These will be collected into regular blog posts on the Rust blog as well as being promoted in other channels.
+Every accepted project goal has an associated tracking issue. These are created [automatically by the project-goals admin tool](../admin/issues.md). Your job as a project goal contact is to provide regular status updates in the form of a comment indicating how things are going. These will be collected into regular blog posts on the Rust blog as well as being promoted in other channels.
 
 ## Updating the progress bar
 
@@ -29,7 +29,7 @@ For larger project goals, it can be more convenient to track progress via github
 ```
 | Metadata      | |
 | --------      | --- |
-| Point of contact | ... |
+| Contact | ... |
 | Team(s)       | ... |
 | Goal document | ... |
 | Tracked issues | [rust-lang/rust label:A-edition-2024 label:C-tracking-issue -label:t-libs](...) |
@@ -46,7 +46,7 @@ If you already have a tracking issue elsewhere, just add a "See also" line into 
 ```
 | Metadata      | |
 | --------      | --- |
-| Point of contact | ... |
+| Contact | ... |
 | Team(s)       | ... |
 | Goal document | ... |
 | See also | rust-lang/rust#123 |

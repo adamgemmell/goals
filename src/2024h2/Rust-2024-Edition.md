@@ -2,7 +2,7 @@
 
 | Metadata       |                                    |
 | ---            | ---                                |
-| Point of contact | @traviscross                       |
+| Contact | @traviscross                       |
 | Status         | Accepted                           |
 | Flagship         | Yes                                |
 | Tracking issue | [rust-lang/goals#117] |

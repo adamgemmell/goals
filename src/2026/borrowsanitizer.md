@@ -2,7 +2,7 @@
 
 | Metadata            |                                    |
 | :--                 | :--                                |
-| Point of contact    | @icmccorm                          |
+| Contact    | @icmccorm                          |
 | Status              | Accepted                           |
 | Tracking issue      | [rust-lang/goals#624] |
 | Zulip channel       | N/A                                |
@@ -44,7 +44,7 @@ One topic for discussion is whether the BorrowSanitizer itself should live in a 
 | Automated Evaluation                      | @icmccorm, BorSan Team   |  Self-hosted [crater](https://github.com/rust-lang/crater) instance, benchmarking.                             |
 | Full compiler integration       | @icmccorm     | Have the runtime, instrumentation pass, and other components available upstream in nightly.                              |
 
-BorrowSanitizer is open source and available on [GitHub](https://github.com/borrowsanitizer/bsan), and we welcome any contributions. We will post monthly status updates on [our website](https://borrowsanitizer.com/) throughout 2026. We are available at any point for Q/A on [Zulip](https://bsan.zulipchat.com/). @icmccorm will be the primary point-of-contact for the [BorrowSanitizer Team](https://borrowsanitizer.com/about.html#team).
+BorrowSanitizer is open source and available on [GitHub](https://github.com/borrowsanitizer/bsan), and we welcome any contributions. We will post monthly status updates on [our website](https://borrowsanitizer.com/) throughout 2026. We are available at any point for Q/A on [Zulip](https://bsan.zulipchat.com/). @icmccorm will be the primary contact for the [BorrowSanitizer Team](https://borrowsanitizer.com/about.html#team).
 
 ## Team asks
 

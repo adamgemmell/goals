@@ -2,7 +2,7 @@
 
 | Metadata           |                                    |
 | :--                | :--                                |
-| Point of contact   | @jieyouxu                          |
+| Contact   | @jieyouxu                          |
 | Status             | Accepted                           |
 | Zulip channel      | N/A                                |
 | Tracking issue     | [rust-lang/goals#259] |

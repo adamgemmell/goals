@@ -2,7 +2,7 @@
 
 | Metadata                |                                                |
 | :--                     | :--                                            |
-| Point of contact        | @WaffleLapkin                                  |
+| Contact        | @WaffleLapkin                                  |
 | Status                  | Accepted                                       |
 | Tracking issue          | [rust-lang/goals#653]             |
 | Other tracking issues   | [rust-lang/rust#35121]                         |

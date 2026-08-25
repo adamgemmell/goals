@@ -2,7 +2,7 @@
 
 | Metadata           |                                    |
 | :--                | :--                                |
-| Point of contact   | @joelmarcey                        |
+| Contact   | @joelmarcey                        |
 | Status             | Accepted                           |
 | Zulip channel      | [#t-spec][channel]                 |
 | Tracking issue     | [rust-lang/goals#265] |

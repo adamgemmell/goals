@@ -2,7 +2,7 @@
 
 | Metadata             |                                    |
 | :--                  | :--                                |
-| Point of contact     | @PLeVasseur                        |
+| Contact     | @PLeVasseur                        |
 | Status               | Proposed                           |
 | Tracking issue       | [rust-lang/goals#391] |
 | Zulip channel        | #t-spec                            |

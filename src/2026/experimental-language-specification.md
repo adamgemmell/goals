@@ -2,7 +2,7 @@
 
 | Metadata         |                                              |
 | :--              | :--                                          |
-| Point of contact | @jackh726                                    |
+| Contact | @jackh726                                    |
 | Status           | Accepted                                     |
 | Tracking issue   | [rust-lang/goals#627]           |
 | Zulip channel    | Likely a combination of #t-types and #t-spec |

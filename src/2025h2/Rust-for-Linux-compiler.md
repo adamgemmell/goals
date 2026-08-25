@@ -2,7 +2,7 @@
 
 | Metadata            |                                                                              |
 | :--                 | :--                                                                          |
-| Point of contact    | @tomassedovic                                                                |
+| Contact    | @tomassedovic                                                                |
 | Status              | Proposed                                                                     |
 | Tracking issue      | [rust-lang/goals#407]                                           |
 | Zulip channel       | [#t-compiler][channel-t-compiler], [#rust-for-linux][channel-rust-for-linux] |

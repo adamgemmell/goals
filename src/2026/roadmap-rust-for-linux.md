@@ -4,7 +4,7 @@
 |:-----------------|------------------------|
 | Short title      | Rust for Linux         |
 | What and why     | Build the Linux kernel with only stable language features. |
-| Point of contact | @tomassedovic          |
+| Contact | @tomassedovic          |
 
 ## Summary
 

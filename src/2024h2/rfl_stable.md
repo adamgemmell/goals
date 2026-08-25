@@ -3,7 +3,7 @@
 | Metadata         |                                    |
 |------------------|------------------------------------|
 | Short title      | Rust-for-Linux                     |
-| Point of contact | @nikomatsakis                      |
+| Contact | @nikomatsakis                      |
 | Status           | Accepted                           |
 | Flagship         | Yes                                |
 | Tracking issue   | [rust-lang/goals#116] |

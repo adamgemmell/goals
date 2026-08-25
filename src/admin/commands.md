@@ -49,7 +49,7 @@ cargo rpg csv champions 2025h2
 The `champions` subcommand generates a CSV report showing the champion assignments for each goal in a milestone. The output includes:
 
 - **Title**: The goal title
-- **POC(s)**: Point of contact for the goal
+- **Contact(s)**: Contact for the goal
 - **Team columns**: One column per team that has asks across all goals in the milestone
   - Shows champion name if assigned
   - Shows `!` if team has an ask but no champion assigned

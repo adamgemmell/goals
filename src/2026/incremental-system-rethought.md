@@ -2,7 +2,7 @@
 
 | Metadata            |                                    |
 | :--                 | :--                                |
-| Point of contact    | @blyxyas                           |
+| Contact    | @blyxyas                           |
 | Status              | Accepted                           |
 | Tracking issue      | [rust-lang/goals#641] |
 | Roadmap             | Fast Builds                        |
@@ -14,7 +14,7 @@
 
 Design, propose, and implement a redesign of the incremental system to allow for shared common bases between different Rustc invocations with different arguments (i.e. `cargo build` and `cargo check`)
 
-There's already an [on-going RFC], based on [this blog post and talk] by the same author (and this project goal's point of contact)
+There's already an [on-going RFC], based on [this blog post and talk] by the same author (and this project goal's contact)
 As my other project goals, this is a formalization of an already existing effort.
 
 ## Motivation

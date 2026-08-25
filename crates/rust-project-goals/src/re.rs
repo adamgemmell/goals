@@ -130,10 +130,10 @@ lazy_static! {
         Regex::new(r"\(\(\(FUNDING TABLE GROUPED BY GOAL\)\)\)").unwrap();
 }
 
-// Summary table of goals needing funding, grouped by funding point of contact
+// Summary table of goals needing funding, grouped by funding contact
 lazy_static! {
-    pub static ref FUNDING_TABLE_GROUPED_BY_POC: Regex =
-        Regex::new(r"\(\(\(FUNDING TABLE GROUPED BY POC\)\)\)").unwrap();
+    pub static ref FUNDING_TABLE_GROUPED_BY_CONTACT: Regex =
+        Regex::new(r"\(\(\(FUNDING TABLE GROUPED BY CONTACT\)\)\)").unwrap();
 }
 
 // Funding legend showing emoji meanings

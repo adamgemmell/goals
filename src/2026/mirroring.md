@@ -2,7 +2,7 @@
 
 | Metadata             |                                    |
 | :--                  | :--                                |
-| Point of contact     | @walterhpearce                     |
+| Contact     | @walterhpearce                     |
 | Status               | Accepted                           |
 | Tracking issue       | [rust-lang/goals#637] |
 | Zulip channel        | [#tbd-signing]                     |

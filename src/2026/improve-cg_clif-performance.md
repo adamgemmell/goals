@@ -2,7 +2,7 @@
 
 | Metadata            |                                    |
 | :--                 | :--                                |
-| Point of contact    | @bjorn3                            |
+| Contact    | @bjorn3                            |
 | Funding contact     | [Tweede golf](https://tweedegolf.nl/) |
 | Status              | Accepted                           |
 | Tracking issue      | [rust-lang/goals#639] |

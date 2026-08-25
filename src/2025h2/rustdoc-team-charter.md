@@ -2,7 +2,7 @@
 
 | Metadata           |                                                                                |
 | :--                | :--                                                                            |
-| Point of contact   | @GuillaumeGomez                                                                |
+| Contact   | @GuillaumeGomez                                                                |
 | Status             | Proposed                                                                       |
 | Zulip channel      | [#t-rustdoc](https://rust-lang.zulipchat.com/#narrow/channel/266220-t-rustdoc) |
 | [rustdoc] champion | @GuillaumeGomez                                                                |

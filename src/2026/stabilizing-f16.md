@@ -2,7 +2,7 @@
 
 | Metadata              |                                                       |
 | :--                   | :--                                                   |
-| Point of contact      | @folkertdev                                           |
+| Contact      | @folkertdev                                           |
 | Status                | Accepted                                              |
 | Tracking issue        | [rust-lang/goals#655]                    |
 | Other tracking issues | [rust-lang/rust#116909]                               |

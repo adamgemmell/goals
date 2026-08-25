@@ -4,7 +4,7 @@
 |:-----------------|----------------------------------------------------------------------------------------------------------------------|
 | Short title      | Constify all the things                                                                                              |
 | What and why     | Const generics accept structs and enums; compile-time reflection means `serialize(&my_struct)` works without derives |
-| Point of contact | @oli-obk                                                                                                             |
+| Contact | @oli-obk                                                                                                             |
 
 ## Summary
 

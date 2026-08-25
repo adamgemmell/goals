@@ -2,7 +2,7 @@
 
 | Metadata            |                                    |
 | :--                 | :--                                |
-| Point of contact    | @yoshuawuyts                       |
+| Contact    | @yoshuawuyts                       |
 | Status              | Accepted                           |
 | Tracking issue      | [rust-lang/goals#656] |
 | Zulip channel       | N/A                                |

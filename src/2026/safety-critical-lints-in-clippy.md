@@ -2,7 +2,7 @@
 
 | Metadata         |                                                                                            |
 | :--              | :--                                                                                        |
-| Point of contact | @PLeVasseur                                                                                |
+| Contact | @PLeVasseur                                                                                |
 | Status           | Accepted                                                                                   |
 | What and why     | A sustainable home in Clippy for safety-critical coding standard lints from the Consortium |
 | Roadmap          | Safety-Critical Rust                                                                       |

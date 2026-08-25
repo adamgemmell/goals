@@ -2,7 +2,7 @@
 
 | Metadata              |                                    |
 |:----------------------|:-----------------------------------|
-| Point of contact      | @BoxyUwU                           |
+| Contact      | @BoxyUwU                           |
 | Status                | Accepted                           |
 | Tracking issue        | [rust-lang/goals#405] |
 | Other tracking issues | [rustc-dev-guide#2663]             |

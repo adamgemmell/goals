@@ -71,13 +71,13 @@ pub fn render_updates(
     };
 
     // Create mappings for ownership information
-    let issue_point_of_contact: std::collections::HashMap<u64, String> = goal_documents
+    let issue_contact: std::collections::HashMap<u64, String> = goal_documents
         .iter()
         .filter_map(|doc| {
             doc.metadata
                 .tracking_issue
                 .as_ref()
-                .map(|issue| (issue.number, doc.point_of_contact_for_goal_list()))
+                .map(|issue| (issue.number, doc.contact_for_goal_list()))
         })
         .collect();
 
@@ -178,7 +178,7 @@ pub fn render_updates(
         use_progress_bar,
         comment_order,
         &issue_themes,
-        &issue_point_of_contact,
+        &issue_contact,
         &issue_team_champions,
         &issue_task_owners,
     )?;
@@ -190,7 +190,7 @@ pub fn render_updates(
         use_progress_bar,
         comment_order,
         &issue_themes,
-        &issue_point_of_contact,
+        &issue_contact,
         &issue_team_champions,
         &issue_task_owners,
     )?;
@@ -212,7 +212,7 @@ fn prepare_goals(
     use_progress_bar: bool,
     comment_order: Order,
     issue_themes: &std::collections::HashMap<u64, Vec<String>>,
-    issue_point_of_contact: &std::collections::HashMap<u64, String>,
+    issue_contact: &std::collections::HashMap<u64, String>,
     issue_team_champions: &std::collections::HashMap<u64, String>,
     issue_task_owners: &std::collections::HashMap<u64, String>,
 ) -> Result<Vec<UpdatesGoal>> {
@@ -282,7 +282,7 @@ fn prepare_goals(
             why_this_goal,
             needs_separator: true, // updated after sorting
             theme: issue_themes.get(&issue.number).cloned().unwrap_or_default(),
-            point_of_contact: issue_point_of_contact
+            contact: issue_contact
                 .get(&issue.number)
                 .cloned()
                 .unwrap_or_else(|| "(unknown)".to_string()),

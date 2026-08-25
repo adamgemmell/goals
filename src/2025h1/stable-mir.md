@@ -2,7 +2,7 @@
 
 | Metadata           |                                    |
 | :--                | :--                                |
-| Point of contact   | @celinval                          |
+| Contact   | @celinval                          |
 | Status             | Accepted                           |
 | Zulip channel      | [#project-rustc-public][channel]     |
 | Tracking issue     | [rust-lang/goals#266] |

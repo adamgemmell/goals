@@ -708,7 +708,7 @@ fn issue_text(timeframe: &str, document: &GoalDocument) -> Result<String> {
         r##"
 | Metadata         | |
 | --------         | --- |
-| Point of contact | {poc} |
+| Contact          | {contact} |
 | Team(s)          | {teams} |
 | Goal document    | {goaldocument} |
 
@@ -722,7 +722,7 @@ fn issue_text(timeframe: &str, document: &GoalDocument) -> Result<String> {
 
 [Team]: https://img.shields.io/badge/Team%20ask-red
 "##,
-        poc = &document.metadata.owner_usernames().join(", "),
+        contact = &document.metadata.owner_usernames().join(", "),
         teams = teams.join(", "),
         summary = document.summary,
         tasks = tasks.join("\n"),

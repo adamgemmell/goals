@@ -190,7 +190,7 @@ fn format_review(
             help_wanted,
         )?;
 
-        writeln!(output, "**Point of contact:** {}", goal.metadata.pocs)?;
+        writeln!(output, "**Contact:** {}", goal.metadata.contacts)?;
 
         // Team champion for this team specifically
         let needs_champion = goal.team_involvement.as_support().map_or(false, |s| {

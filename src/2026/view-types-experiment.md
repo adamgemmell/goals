@@ -2,7 +2,7 @@
 
 | Metadata            |                                    |
 | :--                 | :--                                |
-| Point of contact    | @scrabsha                          |
+| Contact    | @scrabsha                          |
 | Status              | Accepted                           |
 | Tracking issue      | [rust-lang/goals#702] |
 | Zulip channel       | N/A                                |

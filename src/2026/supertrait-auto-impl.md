@@ -2,7 +2,7 @@
 
 | Metadata              |                                                                                                          |
 | :--                   | :--                                                                                                      |
-| Point of contact      | @dingxiangfei2009                                                                                        |
+| Contact      | @dingxiangfei2009                                                                                        |
 | Status                | Accepted                                                                                                 |
 | What and why          | Automatically implement supertraits when a subtrait is implemented, enabling trait hierarchy refactoring |
 | Roadmap               | Beyond the `&`                                                                                           |

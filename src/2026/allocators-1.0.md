@@ -2,7 +2,7 @@
 
 | Metadata         |                                                           |
 | :--              | :--                                                       |
-| Point of contact | @nia-e                                                    |
+| Contact | @nia-e                                                    |
 | Status           | Accepted                                                  |
 | What and why     | Enabling use of custom allocators in the standard library |
 | Timespan         | 2026-2027                                                 |

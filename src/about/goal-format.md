@@ -11,7 +11,7 @@ Every goal begins with a `# Title` heading followed by a metadata table:
 ```markdown
 | Metadata         |                          |
 |:-----------------|--------------------------|
-| Point of contact | @username                |
+| Contact | @username                |
 | Status           | Proposed                 |
 ```
 
@@ -19,7 +19,7 @@ The recognized fields are:
 
 | Field | Required? | Notes |
 |-------|-----------|-------|
-| **Point of contact** | Yes | A single GitHub username like `@ghost`. This person is responsible for driving the goal and providing status updates. |
+| **Contact** | Yes | A single GitHub username like `@ghost`. This person is responsible for driving the goal and providing status updates. |
 | **Status** | Yes | One of `Proposed`, `Accepted`, or `Not accepted`. |
 | **Short title** | No | A shorter display name. Defaults to the `#` heading if omitted. |
 | **What and why** | No | A readable one-liner used in roadmap table cells. If omitted, the first sentence of the Summary section is used instead. |

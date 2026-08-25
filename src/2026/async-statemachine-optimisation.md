@@ -2,7 +2,7 @@
 
 | Metadata            |                                    |
 | :--                 | :--                                |
-| Point of contact    | @diondokter                        |
+| Contact    | @diondokter                        |
 | Status              | Accepted                           |
 | Roadmap             | Binary size reduction              |
 | Tracking issue      | [rust-lang/goals#623] |

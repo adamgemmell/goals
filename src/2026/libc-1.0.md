@@ -2,7 +2,7 @@
 
 | Metadata              |                                                                      |
 | :--                   | :--                                                                  |
-| Point of contact      | @JohnTitor                                                           |
+| Contact      | @JohnTitor                                                           |
 | Status                | Accepted                                                             |
 | Tracking issue        | [rust-lang/goals#657]                                   |
 | Other tracking issues | [rust-lang/libc#3248]                                                |

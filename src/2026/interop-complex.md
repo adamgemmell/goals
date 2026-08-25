@@ -2,7 +2,7 @@
 
 | Metadata              |                                                       |
 | :--                   | :--                                                   |
-| Point of contact      | @folkertdev                                           |
+| Contact      | @folkertdev                                           |
 | Status                | Accepted                                              |
 | Other tracking issues | N/A                                                   |
 | Zulip channel         | N/A                                                   |

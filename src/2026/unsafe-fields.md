@@ -2,7 +2,7 @@
 
 | Metadata           |                                                                                           |
 | :--                | :--                                                                                       |
-| Point of contact   | @jswrenn                                                                                  |
+| Contact   | @jswrenn                                                                                  |
 | [lang] champion    | @nikomatsakis                                                                             |
 | Status             | Accepted                                                                                  |
 | Tracking issue     | [rust-lang/goals#273]                                                        |

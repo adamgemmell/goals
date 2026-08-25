@@ -219,8 +219,8 @@ pub struct UpdatesGoal {
     /// Empty for non-roadmap goals
     pub theme: Vec<String>,
 
-    /// Point of contact for the goal
-    pub point_of_contact: String,
+    /// Contact for the goal
+    pub contact: String,
 
     /// Team champions for this goal (e.g., "T-lang (nikomatsakis), T-compiler (jackh726)")
     pub team_champions: String,

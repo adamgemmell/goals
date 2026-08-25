@@ -2,7 +2,7 @@
 
 | Metadata         |                                    |
 |:-----------------|------------------------------------|
-| Point of contact | @obi1kenobi                        |
+| Contact | @obi1kenobi                        |
 | Status           | Proposed                           |
 | Tracking issue   | [rust-lang/goals#104] |
 | Zulip channel    | N/A                                |

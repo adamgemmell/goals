@@ -2,7 +2,7 @@
 
 | Metadata            |                                                                                  |
 | :--                 | :--                                                                              |
-| Point of contact    | @aapoalas                                                                        |
+| Contact    | @aapoalas                                                                        |
 | Status              | Proposed                                                                         |
 | Flagship            | Beyond the `&`                                                                   |
 | Tracking issue      | [rust-lang/goals#399]                                               |

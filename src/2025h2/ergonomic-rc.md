@@ -2,7 +2,7 @@
 
 | Metadata         |                                    |
 | :--------------- | ---------------------------------- |
-| Point of contact | @nikomatsakis                      |
+| Contact | @nikomatsakis                      |
 | Status           | Proposed                           |
 | Flagship         | Higher-level Rust                  |
 | Tracking issue   | [rust-lang/goals#107] |

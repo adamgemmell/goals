@@ -20,7 +20,7 @@ pub fn csv(repository: &Repository, cmd: &CSVReports) -> Result<()> {
 struct ChampionRow {
     title: String,
     url: String,
-    pocs: String,
+    contacts: String,
     champions: BTreeMap<&'static TeamName, Spanned<String>>,
     teams_with_asks: BTreeSet<&'static TeamName>,
 }
@@ -46,7 +46,7 @@ fn champions(repository: &Repository, milestone: &str) -> Result<()> {
                 repo = repository.repo,
                 path = doc.path.display()
             ),
-            pocs: doc.metadata.pocs.clone(),
+            contacts: doc.metadata.contacts.clone(),
             champions: doc.metadata.champions.clone(),
             teams_with_asks: doc.teams_with_asks(),
         })
@@ -55,7 +55,7 @@ fn champions(repository: &Repository, milestone: &str) -> Result<()> {
     // Write header row
     write_csv_row(|cell| {
         cell.write_cell("Title");
-        cell.write_cell("POC(s)");
+        cell.write_cell("Contact(s)");
         for team in &all_teams {
             cell.write_cell(&format!("{team}"));
         }
@@ -66,7 +66,7 @@ fn champions(repository: &Repository, milestone: &str) -> Result<()> {
     for row in &rows {
         write_csv_row(|cell| {
             cell.write_cell(&row.title);
-            cell.write_cell(&row.pocs);
+            cell.write_cell(&row.contacts);
 
             for team in &all_teams {
                 if row.teams_with_asks.contains(team) {

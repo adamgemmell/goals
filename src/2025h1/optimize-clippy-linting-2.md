@@ -3,7 +3,7 @@
 
 | Metadata         |                                    |
 |:-----------------|------------------------------------|
-| Point of contact | @blyxyas                           |
+| Contact | @blyxyas                           |
 | Status           | Accepted                           |
 | Tracking issue   | [rust-lang/goals#114] |
 | Zulip channel    | N/A                                |

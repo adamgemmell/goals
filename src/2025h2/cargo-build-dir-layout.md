@@ -2,7 +2,7 @@
 
 | Metadata         |                                                                                  |
 | :--              | :--                                                                              |
-| Point of contact | @ranger-ross                                                                     |
+| Contact | @ranger-ross                                                                     |
 | Status           | Proposed                                                                         |
 | Tracking issue   | [rust-lang/goals#401]                                               |
 | Zulip channel    | N/A (an existing stream can be re-used or new streams can be created on request) |

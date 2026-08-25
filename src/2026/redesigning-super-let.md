@@ -2,7 +2,7 @@
 
 | Metadata            |                                    |
 | :--                 | :--                                |
-| Point of contact    | @dianne                            |
+| Contact    | @dianne                            |
 | Status              | Accepted                           |
 | Tracking issue      | [rust-lang/goals#648] |
 | Zulip channel       | N/A                                |

@@ -2,7 +2,7 @@
 
 | Metadata             |                                    |
 |:---------------------|:-----------------------------------|
-| Point of contact     | @oli-obk                           |
+| Contact     | @oli-obk                           |
 | Status               | Accepted                           |
 | What and why         | Compile-time type reflection via `const fn` so `serialize(&my_struct)` works without derives |
 | Timespan             | 2026-2028                          |

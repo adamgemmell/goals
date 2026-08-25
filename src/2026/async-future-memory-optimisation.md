@@ -2,7 +2,7 @@
 
 | Metadata            |                                    |
 | :--                 | :--                                |
-| Point of contact    | @dingxiangfei2009                  |
+| Contact    | @dingxiangfei2009                  |
 | Status              | Accepted                           |
 | Roadmap             | Binary size reduction              |
 | Tracking issue      | [rust-lang/goals#622] |

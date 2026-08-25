@@ -2,7 +2,7 @@
 
 | Metadata       |                                    |
 | ---            | ---                                |
-| Point of contact | @GuillaumeGomez                    |
+| Contact | @GuillaumeGomez                    |
 | Status         | Accepted                           |
 | Tracking issue | [rust-lang/goals#120] |
 | Zulip channel  | N/A                                |

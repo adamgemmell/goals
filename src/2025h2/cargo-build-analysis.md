@@ -2,7 +2,7 @@
 
 | Metadata         |                                    |
 | :--              | :--                                |
-| Point of contact | @weihanglo                         |
+| Contact | @weihanglo                         |
 | Status           | Proposed                           |
 | Tracking issue   | [rust-lang/goals#398] |
 | Zulip channel    | N/A                                |

@@ -2,7 +2,7 @@
 
 | Metadata            |                                                                                           |
 | :--                 | :--                                                                                       |
-| Point of contact    | @JoelMarcey                                                                               |
+| Contact    | @JoelMarcey                                                                               |
 | Status              | Proposed                                                                                  |
 | Tracking issue      | [rust-lang/goals#388]                                                        |
 | Zulip channel       | [t-lang/interop](https://rust-lang.zulipchat.com/#narrow/channel/427678-t-lang.2Finterop) |

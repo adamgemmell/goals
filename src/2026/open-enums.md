@@ -2,7 +2,7 @@
 
 | Metadata              |                                    |
 | :--                   | :--                                |
-| Point of contact      | @kupiakos                          |
+| Contact      | @kupiakos                          |
 | Status                | Accepted                           |
 | Tracking issue        | [rust-lang/goals#645] |
 | Other tracking issues | [rust-lang/rust#156628]            |

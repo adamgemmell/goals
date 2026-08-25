@@ -2,7 +2,7 @@
 
 | Metadata         |                                    |
 | :--------------- | :--------------------------------- |
-| Point of contact | @davidtwco                         |
+| Contact | @davidtwco                         |
 | Status           | Accepted                           |
 | Flagship         | Unblocking dormant traits          |
 | Zulip channel    | N/A                                |

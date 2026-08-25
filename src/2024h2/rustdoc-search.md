@@ -2,7 +2,7 @@
 
 | Metadata       |                                    |
 |----------------|------------------------------------|
-| Point of contact | @notriddle                         |
+| Contact | @notriddle                         |
 | Status         | Accepted                           |
 | Tracking issue | [rust-lang/goals#112] |
 | Zulip channel  | N/A                                |

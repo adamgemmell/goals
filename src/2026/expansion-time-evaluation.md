@@ -2,7 +2,7 @@
 
 | Metadata            |                                    |
 | :--                 | :--                                |
-| Point of contact    | @oli-obk                           |
+| Contact    | @oli-obk                           |
 | Funding contact     | [RustNL](https://rustnl.org)                          |
 | Status              | Accepted                           |
 | Flagship            | Constify all the things            |

@@ -2,7 +2,7 @@
 
 | Metadata            |                                    |
 | :--                 | :--                                |
-| Point of contact    | @davidtwco                         |
+| Contact    | @davidtwco                         |
 | Status              | Accepted                           |
 | Tracking issue      | [rust-lang/goals#270] |
 | Highlight           | Try, never, extern types           |

@@ -218,8 +218,8 @@ impl<'c> GoalPreprocessorWithContext<'c> {
         // Handle funding table grouped by goal (alias for grouped)
         self.replace_funding_table_grouped_by_goal(chapter)?;
 
-        // Handle funding table grouped by POC
-        self.replace_funding_table_grouped_by_poc(chapter)?;
+        // Handle funding table grouped by contact
+        self.replace_funding_table_grouped_by_contact(chapter)?;
 
         // Handle funding legend
         self.replace_funding_legend(chapter)?;
@@ -523,16 +523,16 @@ impl<'c> GoalPreprocessorWithContext<'c> {
         Ok(())
     }
 
-    fn replace_funding_table_grouped_by_poc(
+    fn replace_funding_table_grouped_by_contact(
         &mut self,
         chapter: &mut Chapter,
     ) -> anyhow::Result<()> {
-        let Some(m) = re::FUNDING_TABLE_GROUPED_BY_POC.find(&chapter.content) else {
+        let Some(m) = re::FUNDING_TABLE_GROUPED_BY_CONTACT.find(&chapter.content) else {
             return Ok(());
         };
         let range = m.range();
 
-        let chapter_path = chapter_path(chapter, "(((FUNDING TABLE GROUPED BY POC)))")?;
+        let chapter_path = chapter_path(chapter, "(((FUNDING TABLE GROUPED BY CONTACT)))")?;
         let goals = self.goal_documents(chapter_path)?;
 
         let mut filtered_goals: Vec<&GoalDocument> = goals
@@ -542,7 +542,7 @@ impl<'c> GoalPreprocessorWithContext<'c> {
 
         filtered_goals.sort_by_key(|g| &g.metadata.title);
 
-        let output = goal::format_funding_table_grouped_by_poc(&filtered_goals);
+        let output = goal::format_funding_table_grouped_by_contact(&filtered_goals);
         chapter.content.replace_range(range, &output);
         Ok(())
     }
@@ -1414,7 +1414,7 @@ mod tests {
 
     #[test]
     fn test_find_markdown_table_end() {
-        let content = "Some text before\n\n| Metadata | Value |\n|----------|-------|\n| Point of contact | @nikomatsakis |\n| Teams | (none) |\n\nSome text after";
+        let content = "Some text before\n\n| Metadata | Value |\n|----------|-------|\n| Contact | @nikomatsakis |\n| Teams | (none) |\n\nSome text after";
 
         let result = GoalPreprocessorWithContext::find_markdown_table_end(content);
         assert!(result.is_some());

@@ -2,7 +2,7 @@
 
 | Metadata       |                                    |
 | ---            | ---                                |
-| Point of contact | @jkelleyrtp                        |
+| Contact | @jkelleyrtp                        |
 | Status         | Accepted                           |
 | Tracking issue | [rust-lang/goals#107] |
 | Zulip channel  | N/A                                |

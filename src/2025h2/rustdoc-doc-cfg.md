@@ -2,7 +2,7 @@
 
 | Metadata              |                                    |
 | :--                   | :--                                |
-| Point of contact      | @GuillaumeGomez                    |
+| Contact      | @GuillaumeGomez                    |
 | Status                | Proposed                           |
 | Other tracking issues | [rust-lang/rust#43781]             |
 | Zulip channel         | [#t-rustdoc][t-rustdoc]            |

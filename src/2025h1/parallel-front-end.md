@@ -2,7 +2,7 @@
 
 | Metadata         |                                          |
 |:-----------------|------------------------------------------|
-| Point of contact | @SparrowLii                              |
+| Contact | @SparrowLii                              |
 | Status           | Accepted                                 |
 | Tracking issue   | [rust-lang/goals#121]       |
 | Zulip channel    | [#t-compiler/wg-parallel-rustc][channel] |
