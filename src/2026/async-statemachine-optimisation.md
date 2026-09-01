@@ -89,9 +89,9 @@ I've got 4 optimisations on my list so far. You can see them in the work items a
 
 ## Funding
 
-| Purpose     | Cost    | Funded | Sponsor(s)          |
-| ----------- | ------- | ------ | ------------------- |
-| Contributor | $50,000 | Full   | OpenAI, AWS, +1 TBA |
+| Purpose     | Cost    | Funded | Sponsor(s)             |
+| ----------- | ------- | ------ | ---------------------- |
+| Contributor | $50,000 | Full   | OpenAI, AWS, Microsoft |
 
 ## Target timeline
 
